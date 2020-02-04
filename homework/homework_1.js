@@ -2,6 +2,7 @@
 //Homework 1
 //1-20-20
 //JavaScript-172
+// Grade: 10 / 10
 
 let myName = "Mary";
 let myMajor = "going here forever";
@@ -21,7 +22,7 @@ for (let c = 1; c <14; c++)
 }
 
 let c = 13;
-while (true)
+while (c > 0)
 {
     console.log(c + " doing a while loop");
     c -= 1;
