@@ -6,6 +6,7 @@
  *              now with OBJECTS!
  * @author      Mary Henry <maryisnotgrumpy@gmail.com>
  * @date        2020.02.12
+ * @grade       10 / 10
  **/
 
 
