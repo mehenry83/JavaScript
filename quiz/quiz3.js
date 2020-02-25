@@ -5,8 +5,8 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Mary Henry <maryisnotgrumpy@gmail.com>
  * @date        2020.02.20
- * @link
-    */
+ * @grade       11 / 10
+ * */
 
 // 2 pts
 // 1. Define an object called SiteUser.
@@ -40,13 +40,13 @@ SiteUser.addVisit = function()
 SiteUser.addVisit();
 
 
-// 2 ex pt
+// 1/2 ex pt
 // B. Add a function to the SiteUser object called addItemToCart.
 //      This function should take an argument called item.
 //      This function should then add that item to the cart array.
 SiteUser.addItemToCart = function(item)
 {
-    return this.cart + "item";
+    return this.cart.push(item);
 }
 
 
