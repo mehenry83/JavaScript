@@ -24,5 +24,6 @@ function handlenewButton() {
         };
 
     let postnewBtn = document.getElementById("post");
-    postnewBtn.addEventListener("click", submitHandler)
+    postnewBtn.addEventListener("click", submitHandler);
+    // Should call Blueit?
 };
