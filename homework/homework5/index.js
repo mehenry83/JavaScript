@@ -4,7 +4,7 @@
  * @category    homework 5
  * @author      Mary Henry <maryisnotgrumpy@gmail.com>
  * @date        2020.04.20
- * @grade           /10
+ * @grade      10/10
  */
 
 
