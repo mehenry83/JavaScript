@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Mary Henry <maryisnotgrumpy@gmail.com>
  * @date        2020.04.30
- * @grade
+ * @grade       11.5 / 10
  */
 
 
@@ -20,7 +20,7 @@ var cartData = {
 
 // 1 pts
 // 2. Create a variable called cartDatabaseUrl and set it to the following string.
-            var cartDatabaseUrl = new XMLHttpRequest("https://example.com/api/v2/cart");
+var cartDatabaseUrl = "https://example.com/api/v2/cart";
 
 
 // 3 pts
@@ -29,10 +29,10 @@ xhttp.open("POST", "https://example.com/api/v2/cart", true);
 xhttp.send(cartData);
 
 
-// 2 pts
+// 1.5 / 2 pts
 // 4. Assume the api responded and the resulting response string is stored in a variable called responseString.
 //          Parse the response string into an object and store it in a variable called responseObj.
-var responseObj = JSON.parse('{ "name":"Mary", "price":3.50, "quantity":"1"});
+var responseObj = JSON.parse(responseString);
 
 // 2 pts
 // E. Name a http status codes for success and one for error.
