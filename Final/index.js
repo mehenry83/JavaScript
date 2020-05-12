@@ -66,8 +66,10 @@ var pagejs = {
                 document.write("red");
             }
         }
-        // Perform Actual Visible Update
         pagejs.updateDisplay(pagejs.carcolor);
+        $('#carcolor').change(function(){
+            $('#carimage')[0].src = this.value;
+        });
     },
     catch (err) {
         alert("You messed up again?")
@@ -80,7 +82,8 @@ var pagejs = {
         };
         xhttp.open("POST", "https://nottesla.com/api/v2/page/metrics", true);
         xhttp.send(pagejs.metric);
-        localStorage.setItem("maryHenry", JSON.stringify(maryHenry));
+
+        localStorage.setItem("maryHenry", JSON.stringify(pagejs.metric));
 
 
 
